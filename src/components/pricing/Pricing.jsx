@@ -5,7 +5,6 @@ import PriceCard from "./PriceCard";
 //doing this outside . because data is loading only once
 const fetchPrice = async () => (await fetch("/price.json")).json();
 const pricePromise = fetchPrice();
-
 const Pricing = () => {
   const prices = use(pricePromise);
   const [selectedPrice, setSelectedPrice] = useState("");

@@ -4,6 +4,7 @@ import CustomNavbar from "./components/header/CustomNavbar";
 import Header from "./components/header/Header";
 import Pricing from "./components/pricing/Pricing";
 import Loading from "./components/other/Loading";
+import SampleChart from "./components/charts/SampleChart";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
         <Suspense fallback={<Loading></Loading>}>
           <Pricing></Pricing>
         </Suspense>
+        <SampleChart></SampleChart>
       </header>
 
       <main></main>
