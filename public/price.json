@@ -1,0 +1,32 @@
+[
+  {
+    "price": 9.99,
+    "packageName": "Basic",
+    "features": ["1 User", "5GB Storage", "Email Support"]
+  },
+  {
+    "price": 19.99,
+    "packageName": "Standard",
+    "features": ["5 Users", "50GB Storage", "Priority Email Support"]
+  },
+  {
+    "price": 29.99,
+    "packageName": "Premium",
+    "features": [
+      "10 Users",
+      "200GB Storage",
+      "24/7 Support",
+      "Advanced Analytics"
+    ]
+  },
+  {
+    "price": 49.99,
+    "packageName": "Enterprise",
+    "features": [
+      "Unlimited Users",
+      "1TB Storage",
+      "Dedicated Account Manager",
+      "Custom Integrations"
+    ]
+  }
+]
