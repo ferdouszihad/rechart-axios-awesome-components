@@ -18,11 +18,11 @@ function App() {
       </header>
 
       <main>
-        {/* <Banner></Banner>
+        <Banner></Banner>
         <Suspense fallback={<Loading></Loading>}>
           <Pricing></Pricing>
         </Suspense>
-        <SampleChart></SampleChart> */}
+        <SampleChart></SampleChart>
         <Suspense fallback={<Loading></Loading>}>
           <Phones></Phones>
         </Suspense>
