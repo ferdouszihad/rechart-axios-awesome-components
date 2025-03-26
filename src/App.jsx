@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import Pricing from "./components/pricing/Pricing";
 import Loading from "./components/other/Loading";
 import SampleChart from "./components/charts/SampleChart";
+import Phones from "./components/phoneUI/Phones";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -14,14 +15,18 @@ function App() {
       <header>
         {/* <Header></Header> */}
         <CustomNavbar></CustomNavbar>
-        <Banner></Banner>
+      </header>
+
+      <main>
+        {/* <Banner></Banner>
         <Suspense fallback={<Loading></Loading>}>
           <Pricing></Pricing>
         </Suspense>
-        <SampleChart></SampleChart>
-      </header>
-
-      <main></main>
+        <SampleChart></SampleChart> */}
+        <Suspense fallback={<Loading></Loading>}>
+          <Phones></Phones>
+        </Suspense>
+      </main>
       <footer></footer>
     </div>
   );
