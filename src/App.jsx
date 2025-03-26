@@ -1,4 +1,5 @@
 import Banner from "./components/banner/Banner";
+import CustomNavbar from "./components/header/CustomNavbar";
 import Header from "./components/header/Header";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <div className="font-poppins">
       <header>
-        <Header></Header>
+        {/* <Header></Header> */}
+        <CustomNavbar></CustomNavbar>
         <Banner></Banner>
       </header>
 
